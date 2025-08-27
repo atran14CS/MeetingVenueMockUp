@@ -1,0 +1,38 @@
+body {
+  background-color: #FAFAFA;
+}
+
+.Meeting-Section {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center; /* centers the grid horizontally */
+}
+
+
+#title {
+  text-align: center;
+  margin-top: 3%;
+  text-decoration: underline;
+}
+
+.venue-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 550px);
+  gap: 100px;
+  padding: 20px;
+  justify-content: center; /* ensures the grid itself stays centered */
+}
+
+
+.styleText {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+Footer {
+  background-color: black;
+  text-align: center;
+  color: #FAFAFA;
+  height: 100px;
+  padding-top: 37px;
+  margin-top: 10px;
+}

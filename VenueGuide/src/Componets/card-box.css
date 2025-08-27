@@ -1,0 +1,25 @@
+.card-box {
+  display: flex; /* side-by-side layout */
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black; /* black border */
+  border-radius: 8px; /* optional rounded corners */
+  padding: 1rem;
+  background-color: white; /* optional background for contrast */
+  max-width: 600px; /* you can adjust width */
+  margin: 1rem auto; /* center horizontally */
+}
+
+.card-title {
+  flex: 1; /* take available space */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem; /* space between title and image */
+}
+
+.meetingPic {
+  width: 200px; /* fixed image width */
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px; /* optional rounded image edges */
+}
